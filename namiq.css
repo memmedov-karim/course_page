@@ -1,0 +1,412 @@
+header {
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:url("images/Group7838.png");
+}
+
+.wrapper {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+header .wrapper .logo11 {
+    position: absolute;
+}
+
+header .wrapper .logo12 {
+    position: relative;
+    left: 16.88px;
+    top: 22.74px;
+}
+
+header .wrapper .logo13 {
+    position: relative;
+    top: -15.02px;
+    left: 8.85px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 1300px;
+    top: o;
+    padding: 33px 0;
+    z-index: 100;
+    transition: all 500ms ease;
+}
+
+nav.scrolled {
+    background-color:  #382459;
+    box-shadow: 0 16px 14px -8px rgba(0,0,0,0.3);
+    border-radius: 0 0 8px 8px;
+    top: 0;
+    padding: 12px;
+}
+
+header .wrapper .logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+header .wrapper .logos .logo1ph {
+    display: none;
+}
+
+header .wrapper .logos1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    height: 34px;
+}
+
+header .wrapper .logos1 .codefuture {
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+header .wrapper .logos1 .number {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+header .wrapper .logos1 .logo23 {
+    display: none;
+}
+
+/* Hero Section */
+
+.hero-section {
+    height: 100vh;
+    width: 100%;
+    max-width: 1144px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.hero-section h1 {
+    font-family: 'Oswald';
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 70px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #30FFCD;
+    margin-bottom: 26px;
+}
+
+.hero-section  .text1 {
+    max-width: 626px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-bottom: 47px;
+}
+
+.hero-section  .text2 {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    border-bottom: 2px dashed #FFE920;
+}
+
+.hero-section .logolast {
+    display: none;
+}
+
+/* Section2 */
+
+.section2 {
+    width: 100%;
+}
+
+.wrapper2 {
+    width: 90%;
+    margin: 10%;
+}
+
+.section2 .header2 {
+    max-width: 988px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section2 .header2 h1{
+    font-family: 'Oswald';
+    font-weight: 700;
+    font-size: 47px;
+    line-height: 50px;
+    letter-spacing: 0.03em;
+    color: #382459;
+}
+
+.section2 .header2 .btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 13.2857px 29.5238px;
+    width: 224px;
+    height: 48px;
+    background: #FF1DC0;
+    border-radius: 48px;
+    border: none;
+}
+
+.section2 .low .btnph {
+    display: none;
+}
+
+.section2 .wrapper2 a{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15.0508px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.section2 .low {
+    max-width: 852px;
+    display: flex;
+    gap: 87px;
+}
+
+.section2 .low h2 {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 32px;
+    color: #382459;
+}
+
+.section2 .low p {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #382459;
+}
+
+.section2 .low .left {
+    padding-top: 136px;
+}
+
+.section2 .low .left h2{
+    padding-top: 32px;
+}
+
+.section2 .low .left p{
+    padding-top: 13.25px;
+}
+
+.section2 .low .right {
+    padding-top: 127px;
+}
+
+.section2 .low .right h2{
+    padding-top: 24.7px;
+}
+
+.section2 .low .right p{
+    padding-top: 21.2px;
+}
+
+/* Responsive css for  */
+
+@media (min-width: 320px) and (max-width: 480px){
+    header {
+        height: unset; 
+        width: unset;
+        background-position: left -20% top 0px;
+        background-size: 100% 55%;
+        background: #382459;
+    } 
+    
+    .wrapper {
+        max-width:268px;
+    }
+    
+    nav {
+        width: 256px;
+    }
+    
+    nav.scrolled {
+        width: 100%;
+        left: 0;
+        right: 0;
+    }
+
+    header .wrapper .logos1 .logo23 {
+        display: block;
+    }
+
+    header .wrapper .logos .logo1ph {
+        display: block;
+    }
+
+    header .wrapper .logos .logo1 {
+        display: none;
+    }
+
+    header .wrapper .logos .logo2 {
+        display: none;
+    }
+    header .wrapper .logos .logo3 {
+        display: none;
+    }
+    header .wrapper .logos1 .logo21 {
+        display: none;
+    }
+    header .wrapper .logos1 .logo22 {
+        display: none;
+    }
+    /* Hero Section */
+
+    .hero-section {
+        height: unset;
+        width: unset;
+        max-width: unset;
+        margin: unset;
+        display: unset;
+        align-items: unset;
+    }
+
+    .hero-section h1 {
+        padding-top: 211px;
+        font-size: 28px;
+        line-height: 32px;
+        margin-bottom: 21.5px;
+    }
+
+    .hero-section  .text1 {
+        max-width: 268px;
+        height: 80.93px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        margin-bottom: 22px;
+    }
+
+    .hero-section .text11 {
+        display: block;
+    }
+
+    .hero-section  .text2 {
+        max-width: 188px;
+        font-size: 13px;
+        line-height: 17px;
+        display: block;
+        margin-bottom: 56px;
+        border-bottom: 1px dashed #FFE920;
+    }
+
+    .hero-section .logolast {
+        max-width: 180px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 28px;
+        padding-bottom: 50px;
+    }
+
+    /* Section2 */
+
+    .section2 .header2 {
+        max-width: 256px;
+    }
+
+    .section2 .header2 h1{
+        font-size: 24.7px;
+    }
+
+    .section2 .header2 .btn {
+        display: none;
+    }
+
+    .section2 .low {
+        max-width: 260px;
+        display: flex;
+        flex-direction: column;
+        gap: unset;
+    }
+
+    .section2 .low h2 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .section2 .low p {
+        font-size: 11px;
+        line-height: 16px;
+    }
+
+    .section2 .low .left {
+        padding-top: 47.86px;
+    }
+
+    .section2 .low .left h2{
+        padding-top: 26.55px;
+    }
+
+    .section2 .low .left p{
+        padding-top: 7.77px;
+    }
+
+    .section2 .low .right {
+        padding-top: 46.58px;
+    }
+
+    .section2 .low .right h2{
+        padding-top: 17px;
+    }
+
+    .section2 .low .right p{
+        padding-top: 13.38px;
+    }
+
+    .section2 .low .btnph {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 13.2857px 29.5238px;
+        width: 224px;
+        height: 48px;
+        background: #FF1DC0;
+        border-radius: 48px;
+        border: none;
+    }
+
+    .section2 .low .btnphdiv {
+        padding-top: 56px;
+        padding-bottom: 88px;
+    }
+}
