@@ -181,7 +181,7 @@
 
 }
 .section4{
-    height: 400px;
+    /* height: 400px; */
 }
 .sec4{
     display: flex;
@@ -383,7 +383,7 @@
     }
     /* Section 4 */
     .section4{
-        /* height: 600px; */
+        height: 600px;
     }
     .sec4{
         display: block;

@@ -1,0 +1,324 @@
+/* ----------------------------------------------- section 7 desktop ------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Maven+Pro:wght@400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Oswald:wght@200;300;400;500;600;700&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shizuru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Maven+Pro:wght@400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Oswald:wght@200;300;400;500;600;700&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shizuru&display=swap');
+
+.section7{
+    position: relative;
+    z-index: 3;
+    height: 576px;
+    background: #382459;
+    padding-top: 22.66px;
+
+}
+.section7container{
+    width: 78.17%;
+    margin-left: 5.08%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.sec7firstpart{
+    width: 57.41%;
+}
+
+.sec7secondpart{
+    width: 51.65%;
+}
+
+.sec7heading{
+    width: 85%;
+    min-width: 402.11px;
+    height: 100.04px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 47px;
+    line-height: 52px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #30FFCD;
+}
+
+.sec7par{
+    width: 100%;
+    height: 70.03px;
+    margin-top: 26.55px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.sec7button{
+    width: 46.22%;
+    height: 48px;
+    background: #FF1DC0;
+    border-radius: 48px;
+    border: none;
+    margin-top: 43.03px;
+}
+.sec7button p{
+    width: 72.49%;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 15.0508px;
+    /* line-height: 18px; */
+    color: #FFFFFF;
+    margin-left: 13.39%
+}
+
+/* --------------------------------------------------- section 7 mobile ------------------------------------------------*/
+ 
+@media (min-width:320px) and (max-width:1280px){
+
+    .section7{
+        height: 468px !important;
+    }
+
+    .section7container{
+        width: 86.25%;
+        margin-left: 8.75%;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .sec7firstpart{
+        width: 95.24%;
+        max-width: 262.88px;
+        height: 320.57px;
+        position: absolute;
+        left: 20%;
+        top: -117px;
+    }
+
+    .sec7picture{
+        width: 262.88px;
+        height: 320.57px;
+    }
+
+    .sec7secondpart{
+        width: 81.88%;
+        position: absolute;
+        margin-top: 106.75px;
+
+    }
+
+    .sec7heading{
+        width: 99%;
+        min-width: 223px;
+        height: 33px;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24.7px;
+        line-height: 28px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #30FFCD;
+    }
+
+    .sec7par{
+        width: 85.84%;
+        height: 63px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 16px;
+        color: #FFFFFF;
+        margin-top: 45px;
+    }
+
+    .sec7button{
+        width: 70.22%;
+        max-width: 158.71px;
+        height: 40px;
+        margin-top: 75.25px;
+    }
+
+    .sec7button p{
+        width: 85.06%;
+        height: 17.71px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15.05px;
+        line-height: 18px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+        margin-left: 7.46%;
+    }
+
+
+}
+
+/* ------------------------------------------------ section 7 end here -----------------------------------------------*/
+
+/* ------------------------------------------------ section 8 desktop ------------------------------------------------*/
+
+.section8{
+    height: 291px ;
+    padding-top: 85.01px;
+
+}
+
+.section8container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 83.33%;
+    margin-left: 10%;
+
+}
+
+.sec8algort{
+    display: flex;
+    flex-direction: column;
+    width: 18.8%;
+    height: 110.6px;
+    justify-content: space-between;
+}
+
+.sec8contact{
+    display: flex;
+    flex-direction: column;
+    width: 45.6%;
+    height: 117.99px;
+    justify-content: space-between;
+
+}
+
+.sec8adnsu{
+    display: flex;
+    flex-direction: column;
+    width: 13.96%;
+    height: 59.34px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.sec8algimage{
+    width: 100%;
+    max-width: 188px;
+}
+
+.sec8instagram{
+    width: 10.11%;
+    max-width: 19.02px;
+}
+
+.sec8asoiu{
+    max-width: 96.48px;
+    width: 69.08%;
+}
+
+.sec8adnsu svg{
+    width: 100%;
+}
+
+.sec8codefor{
+    width: 100%;
+    height: 80px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #382459;
+}
+
+.sec8erize{
+    width: 84.02%;
+    height: 24px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #382459;
+}
+
+/* -------------------------------------------- section 8 mobile ---------------------------------------------------- */
+
+@media (min-width:320px) and (max-width:1280px){
+
+    .section8{
+        height: 363.75px;
+    }
+    .section8container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 90.93%;
+        margin-left: 7.81%;
+        margin-top: 72px;
+    }
+
+    .sec8algort{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 55.4%;
+    }
+
+    .sec8contact{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 97.59%;
+        height: 68px;
+        margin-top: 32.55px;
+    }
+
+    .sec8adnsu{
+        display: flex;
+        flex-direction: column; 
+        justify-content: space-between;
+        width: 38.06%;
+        height: 51.75px;
+        align-items: flex-start;
+        margin-top: 60px;
+    }
+
+    .sec8algimage{
+        width: 74.42%;
+        max-width: 120px;
+        height: 27.45px;
+    }
+
+    .sec8instagram{
+        width: 11.79%;
+        max-width: 19.02px;
+        height: 19.02px;
+        margin-left: 13.77%;
+    }
+
+    .sec8codefor, .sec8erize{
+        font-family: 'Montserrat';
+        font-weight: 700;
+        font-size: 11px;
+        line-height: 16px;
+        color: #382459;
+    }
+    
+    .sec8erize{
+        width: 100%;
+    }
+
+    .sec8asoiu{
+        max-width: 96.48px;
+        width: 87.09%;
+    }
+
+    .sec8adnsu svg{
+        width: 100%;
+        max-width: 110.78px;
+    }
+
+}
+ 

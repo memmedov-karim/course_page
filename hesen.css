@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Maven+Pro:wght@400;500;600;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Oswald:wght@200;300;400;500;600;700&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shizuru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Maven+Pro:wght@400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Oswald:wght@200;300;400;500;600;700&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shizuru&display=swap');
+
+
+/*  ----------------------------- section 5 desktop ----------------------------------------------------*/
+
+.section5{
+    height: 720px;
+    background-color: #2E1E49;
+}
+
+.section5containerdesktop{
+    width: 72.81%;
+    margin-left: 8.43%;
+    margin-top: 105px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 105px;
+}
+
+.section5containermobile{
+    display: none;
+}
+
+.sec5-first-content{
+    width: 48.06%;
+
+}
+
+.sec5-first-content-first-heading{
+    width: 93.75%;
+    height: 48px;
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #30FFCD;
+}
+
+.sec5-first-content-first-par{
+    margin-top: 76.11px;
+    width: 97.32%;
+    max-width: 436px;
+    height: 264px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 24px;
+}
+
+.sec5-btn{
+    width: 42.85%;
+    margin-top: 71.26px;
+    height: 48px;
+    border: 2px solid #33DFC0;
+    box-sizing: border-box;
+    border-radius: 48px;
+    background: transparent;
+}
+
+.sec5-btn p{
+    width: 100%;
+    height: 24px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #30FFCD;
+}
+
+.sec5-second-content{
+    width: 46.35%;
+    margin-left: 5.57%;
+}
+
+.sec5-second-content-first-heading{
+    /* width: 97.22%; */
+    height: 34px;
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 43px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #30FFCD;
+}
+
+.sec5-second-content-second-par{
+    max-width: 344.3px;
+    width: 79.69%;
+    height: 264px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-top: 90.08px;
+}
+
+.sec5-second-btn{
+    margin-top: 71.26px;
+}
+
+
+
+@media (min-width:320px) and (max-width:1280px){
+
+.section5{
+    height: 560px;
+    background: #2E1E49;
+}
+
+.section5containerdesktop{
+    display: none;
+}
+
+.section5containermobile{
+    width: 90%;
+    margin-left: 10%;
+    display: block;    
+    padding-top: 36px;
+
+}
+
+.sec5course{
+    width: 89.64%;
+    height: 160px;
+}
+
+.sec5kurssecin{
+    margin-top: 7.05px;
+    width: 94.81%;
+    height: 28px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24.7px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #30FFCD;
+}
+.sec5selectbutton{
+    margin-top: 36px;
+    border: 1px solid #30ffcd;
+    color: #30ffcd;
+    font-family: Oswald;
+    background-color: rgb(46, 30, 73);
+    font-weight: 700;
+    width: 94%;
+    max-width: 270px;
+    font-size: 16px;
+}
+
+
+.sec5selectbutton{
+    padding: 16px 20px;
+
+}
+
+.sec5coursecontent{
+    height: 224px;    
+    margin-top: 8px;
+
+
+}
+
+.sec5parspars{
+    display: flex;
+    align-items: flex-start;
+}
+
+.sec5parsparsppp{    
+    width: 90%;
+    max-width: 252px;
+    margin-top: 0px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    color: #FFFFFF;
+}
+
+svg{
+    width: 10px !important;
+    height: 10px !important;
+    margin-right: 15px;
+}
+
+.sec5button{
+    margin-top: 24px;
+    width: 42.25%;
+    max-width: 135.22px;
+    height: 40px;
+    border: 1px solid #33DFC0;
+    box-sizing: border-box;
+    border-radius: 48px;
+    background-color: transparent;
+}
+
+.sec5kurspr{
+    height: 16px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 16px;
+    color: #33DFC0;
+}
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+/*  ----------------------------- section 6 desktop ----------------------------------------------------*/
+.section6{
+    height: 420px;
+}
+.sec6container{
+    width: 79.37%;
+    margin-left: 9.37%;
+    display: flex;
+    flex-direction: row;
+}
+
+.sec6-first-content{
+    width: 48.81%;
+    height: 249.86px;
+    margin-top: 130px;
+}
+
+.sec6-first-heading{
+    width: 100%;
+    height: 50.02px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 47px;
+    line-height: 50px;
+    letter-spacing: 0.03em;
+    color: #382459;
+}
+
+.sec6-first-par{
+    width: 74.62%;
+    max-width: 370.14px;
+    height: 149.86px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #382459;
+    margin-top: 49.98px;
+}
+
+.sec6-second-content{
+    width: 45.66%;
+    height: 420px;
+    margin-left: 5.51%;
+    position: relative;
+    z-index: 2;
+}
+
+.sec6-man{
+    position: absolute;
+    top: -84px;
+    width: 464px;
+    height: 649.6px;
+}
+
+
+
+
+
+/* -------------------------------- section 6 mobile ---------------------------------------- */
+
+@media (min-width:320px) and (max-width:1280px){
+
+.section6{
+    height: 287px !important;
+    margin-top: 0px;
+}
+.sec6container{
+    width: 88.75%;
+    margin-left: 10%;
+}
+
+
+.sec6-second-content{
+    display: none;
+}
+
+.sec6-first-content{
+    max-width: 284px;
+    width: 100%;
+    height: 113.12px;
+    margin-top: 79.05px;
+}
+
+.sec6-first-heading{
+    width: 95.77%;
+    max-width: 272px;
+    height: 28px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24.7px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #382459;
+}
+
+.sec6-first-par{
+    margin-top: 17.02px;
+    max-width: 265px;
+    width: 100%;
+    height: 68px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 16px;
+    color: #382459;
+
+}
+
+
+}
+/* ------------------------------- section 6 end here ---------------------------------------*/
+
+.section7{
+    /* background-color: #33DFC0;
+    height: 200px; */
+    z-index: 3;
+    position: relative;
+}
