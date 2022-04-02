@@ -177,7 +177,7 @@
 
 .sec5parsparsppp{    
     width: 90%;
-    max-width: 252px;
+    min-width: 252px;
     margin-top: 0px;
     font-family: 'Montserrat';
     font-style: normal;
